@@ -1,0 +1,4 @@
+customer_id,date_of_birth,item,quantity,purchase_date
+1,1993-12-14,cake,3,2020-12-14
+2,2000-12-13,pasta,1,2019-12-13
+1,1993-12-14,rice,2,2020-01-18
