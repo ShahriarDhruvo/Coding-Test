@@ -58,4 +58,4 @@ with open("output/customer-bill.csv", "w") as csv_file:
     csv_writer.writeheader()
 
     for key in customersBills.keys():
-        csv_file.write("%s,%s\n" % (key, customersBills[key]))
+        csv_file.write("%s,%.2f\n" % (key, customersBills[key]))
